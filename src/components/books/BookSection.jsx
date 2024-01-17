@@ -15,10 +15,22 @@ export default function BookSection() {
         }
     }
 
+    function handleFavourite(favBook) {
+        const newBooks = [...books];
+        const favBookIndex = newBooks.findIndex(
+            (book) => book.id === favBook.id
+        );
+
+        newBooks[favBookIndex].isFavourite =
+            !newBooks[favBookIndex].isFavourite;
+
+        setBooks(newBooks);
+    }
+
     return (
         <main className="my-10 lg:my-14">
             <Header onSearch={handleSearch} />
-            <BooksGrid books={books} />
+            <BooksGrid books={books} onFav={handleFavourite} />
         </main>
     );
 }
