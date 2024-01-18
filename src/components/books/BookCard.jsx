@@ -33,15 +33,21 @@ export default function BookCard({ book, onFav }) {
                         {Array(book.rating)
                             .fill(0)
                             .map((item, index) => (
-                                <FaStar key={index} />
+                                <FaStar
+                                    key={index}
+                                    className="text-amber-300"
+                                />
                             ))}
                         {Array(5 - book.rating)
                             .fill(0)
                             .map((item, index) => (
-                                <FaRegStar key={index} />
+                                <FaRegStar
+                                    key={index}
+                                    className="text-gray-300"
+                                />
                             ))}
                         <span className="text-xs lg:text-sm">
-                            ({book.rating})
+                            ({book.rating} Star)
                         </span>
                     </div>
                     {/* <!-- stars ends --> */}
