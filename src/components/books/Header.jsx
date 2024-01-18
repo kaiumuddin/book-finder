@@ -1,7 +1,7 @@
 import SearchBox from "./SearchBox";
 import SortAndFilter from "./SortAndFilter";
 
-export default function Header({ onSearch }) {
+export default function Header({ onSearch, sortOption, onSort }) {
     return (
         <header className="mb-8 lg:mb-10 mx-auto max-w-7xl">
             <div className="mx-auto flex items-end justify-between max-md:max-w-[95%] max-md:flex-col max-md:items-start max-md:space-y-4">
@@ -14,7 +14,7 @@ export default function Header({ onSearch }) {
                     </h2>
                     <SearchBox onSearch={onSearch} />
                 </div>
-                <SortAndFilter />
+                <SortAndFilter sortOption={sortOption} onSort={onSort} />
             </div>
         </header>
     );

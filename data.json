@@ -1,0 +1,84 @@
+{
+    "books": [
+        {
+            "title": "The sea of monsters",
+            "author": "Riordan, Rick",
+            "image": "https://archive.org/services/img/seaofmonsters00rior",
+            "id": "98ec9cea-511c-49d4-9e92-58b87ea3a3dd",
+            "published": 1965,
+            "price": 55.99,
+            "rating": 3,
+            "isFavourite": false
+        },
+        {
+            "title": "The odyssey",
+            "author": "Hinds, Gareth, Homer. Odyssey",
+            "image": "https://archive.org/services/img/odyssey00gare",
+            "id": "f0244784-125f-4d44-9ad9-f486ffad7c3d",
+            "published": 1911,
+            "price": 29.99,
+            "rating": 2,
+            "isFavourite": false
+        },
+        {
+            "title": "The son of Neptune",
+            "author": "Riordan, Rick",
+            "image": "https://archive.org/services/img/sonofneptune00rior",
+            "id": "28572b22-cd6f-4d5a-99b5-5ba31497d83a",
+            "published": 1901,
+            "price": 45.99,
+            "rating": 3,
+            "isFavourite": true
+        },
+        {
+            "title": "The last Olympian",
+            "author": "Riordan, Rick",
+            "image": "https://archive.org/services/img/lastolympian00rior",
+            "id": "8b00eaf8-f5b9-471b-a844-6decc26bc749",
+            "published": 1917,
+            "price": 96.99,
+            "rating": 4,
+            "isFavourite": true
+        },
+        {
+            "title": "The golden fleece and the heroes who lived before Achilles",
+            "author": "Colum, Padraic, Pogány, Willy, 1882-1955, ill",
+            "image": "https://archive.org/services/img/goldenfleeceherocolu",
+            "id": "e404ca1d-19d7-41b5-b0fb-1692b2efbd0d",
+            "published": 1988,
+            "price": 86.99,
+            "rating": 2,
+            "isFavourite": true
+        },
+        {
+            "title": "A book of myths",
+            "author": "Lang, Jeanie, Mrs, Stratton, Helen, ill",
+            "image": "https://archive.org/services/img/bookofmyths00lang",
+            "id": "3f592d3d-6e29-4072-9966-85851f647e1b",
+            "published": 1934,
+            "price": 65.99,
+            "rating": 2,
+            "isFavourite": false
+        },
+        {
+            "title": "Tanglewood tales",
+            "author": "Hawthorne, Nathaniel, Sterrett, Virginia Frances, ill",
+            "image": "https://archive.org/services/img/tanglewoodtales00hawt",
+            "id": "9f74a028-4224-405e-987d-fc63c58e9c64",
+            "published": 1989,
+            "price": 30.99,
+            "rating": 3,
+            "isFavourite": true
+        },
+        {
+            "title": "Oedipus Rex",
+            "author": "Sophocles, Young, George, Sir",
+            "image": "https://archive.org/services/img/oedipusrex00soph",
+            "id": "ffea25bb-1029-4afe-8976-4c19a44433ff",
+            "published": 1923,
+            "price": 93.99,
+            "rating": 3,
+            "isFavourite": true
+        }
+    ]
+}

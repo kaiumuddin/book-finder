@@ -3,6 +3,7 @@ import { FaHeart } from "react-icons/fa";
 import { FaRegHeart } from "react-icons/fa";
 import { FaStar } from "react-icons/fa";
 import { FaRegStar } from "react-icons/fa";
+import BookImage from "../../assets/book.png";
 
 export default function BookCard({ book, onFav }) {
     return (
@@ -12,12 +13,14 @@ export default function BookCard({ book, onFav }) {
                 <img
                     className="max-w-[144px]"
                     src={book.image}
-                    alt="book name"
+                    alt={book.title}
                 />
             </div>
             {/* <!-- info --> */}
             <div className="space-y-3">
-                <h4 className="text-lg font-bold lg:text-xl">{book.title}</h4>
+                <h4 className="text-lg font-bold lg:text-xl">
+                    {book.title} ({book.published})
+                </h4>
                 <p className="text-xs lg:text-sm">
                     By : <span>{book.author}</span>
                 </p>
